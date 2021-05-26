@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Flask Tutorial</title>
+</head>
+<body>
+    <img src="{{url_for('static', filename='logo.jpeg')}}" style="width: 400px;"/><br>
+    <form action="/" method="get">
+        <br>
+        <p>Predicted Probability of harmful alcohol use post-LT with 95% confidence: <b>{{ value }}<b><p>
+
+        <br><input type="submit" value="Return to Form">
+    </form>
+</body>
+</html> 
