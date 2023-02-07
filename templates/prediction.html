@@ -7,7 +7,7 @@
     <form action="/" method="get">
         <br>
         <p>Predicted Probability of harmful alcohol use post-LT with 95% confidence: <b>{{ value }}<b><p>
-
+	<input type="hidden" name="foo" value="bar" /> <--! HACK to prevent ? in homepage URL on submit -->
         <br><input type="submit" value="Return to Form">
     </form>
 </body>
